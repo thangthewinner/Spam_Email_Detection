@@ -28,15 +28,17 @@ def preprocess_text(text, stop_words):
 def main():
     model = MultinomialNaiveBayes
 
-    st.title('Sentiment Analysis')
-    st.subheader('Enter the text to analyze the sentiment')
+    st.title('Spam vs Non-Spam Email Classifier')
+    st.subheader('Enter the text')
     
     text = st.text_area('Text')
     if st.button('Predict'):
         text = preprocess_text(text, stop_words)
         X = vectorizer.transform([text]).toarray()
         pred = model.predict(X)
-        st.write('Sentiment:', 'Spam' if pred[0] == 1 else 'Non-Spam')
+        st.write('Spam' if pred[0] == 1 else 'Non-Spam', 'Email')
 
 if __name__ == '__main__':
     main()
+
+# Congratulations! You have won a lottery ticket worth $1 million. Please click the link to claim your prize.
