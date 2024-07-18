@@ -40,5 +40,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-# Congratulations! You have won a lottery ticket worth $1 million. Please click the link to claim your prize.
