@@ -1,4 +1,5 @@
 # Spam Email Detection
+(This is final project of course MAI391 (Mathematics for AI))
 
 ## Install nesscessary libraries
 
