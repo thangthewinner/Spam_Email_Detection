@@ -1,14 +1,15 @@
 # Spam Email Detection
-(This is final project of course MAI391 (Mathematics for AI))
+(This is the final project of course MAI391 (Mathematics for AI))
 
-## Install nesscessary libraries
+## Install necessary libraries
 
 1. Ensure that you have Python and pip installed.
-2. Run the following command to install all the necessary libraries:
+2. `control + shift + ~` to open the terminal then run the following command to install all the necessary libraries:
 
    ```bash
    pip install -r requirements.txt
 
-3. Run the webapp
-   
-   control + shift + ~ to open terminal then type the following code: streamlit run webapp.py
+3. Run the web app
+
+   ```bash
+   streamlit run webapp.py
